@@ -1,5 +1,5 @@
 # 使用一个合适的基础镜像，例如官方的 Go 镜像
-FROM golang:1.17
+FROM golang:1.21.1
 
 # 设置工作目录
 WORKDIR /app
